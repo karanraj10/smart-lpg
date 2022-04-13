@@ -1,0 +1,57 @@
+{
+  "params": {
+    "localhost": "http://192.168.238.52"
+  },
+  "users": {
+    "E8:DB:84:DD:98:1D": {
+      "LPG": [
+        null,
+        {
+          "currentWeight": 26,
+          "initWeight": 30,
+          "joinDate": "05-04-2022",
+          "joinTime": "12:08",
+          "leakage": false,
+          "onOffStatus": false,
+          "usage": {
+            "04-04-2022": {
+              "06:00": 0.11,
+              "08:00": 0.3,
+              "12:00": 0.55,
+              "16:00": 0.9
+            },
+            "05-04-2022": {
+              "12:09": 0.5,
+              "12:10": 0.7,
+              "12:11": 0.22,
+              "12:14": 0.56
+            },
+            "06-04-2022": {
+              "06:00": 0.22,
+              "08:00": 0.65,
+              "12:00": 0.66,
+              "16:00": 1.33
+            }
+          }
+        },
+        {
+          "currentWeight": 1,
+          "initWeight": 30,
+          "joinDate": "02-02-2022",
+          "joinTime": "12:00",
+          "leakage": false,
+          "onOffStatus": false
+        },
+        {
+          "currentWeight": 1,
+          "initWeight": 30,
+          "joinDate": "01-01-2022",
+          "joinTime": "12:00"
+        }
+      ],
+      "customerNumber": "123456789012657",
+      "mobileNumber": "9988776655",
+      "password": "DEproject@2022@LPG"
+    }
+  }
+}

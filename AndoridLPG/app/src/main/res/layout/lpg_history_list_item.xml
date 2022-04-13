@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorGrey"
+    app:cardCornerRadius="20dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="7dp"
+    android:layout_marginEnd="7dp">
+
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gas_1">
+        </ImageView>
+
+        <TextView
+            android:layout_toRightOf="@id/imageView"
+            android:id="@+id/lpgID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            style="@style/boldTextWhite"
+            />
+
+        <TextView
+            android:id="@+id/lpgJoinDateHeader"
+            android:layout_below="@id/lpgID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Join Date: "
+            style="@style/normalText16"
+            />
+
+        <TextView
+            android:id="@+id/lpgJoinDate"
+            android:layout_below="@id/lpgID"
+            android:layout_toEndOf="@id/lpgJoinDateHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            style="@style/normalText16Primary"
+            />
+
+        <TextView
+            android:layout_below="@id/lpgJoinDateHeader"
+            android:id="@+id/lpgJoinTimeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Join Time: "
+            style="@style/normalText16"
+            />
+
+        <TextView
+            android:id="@+id/lpgJoinTime"
+            android:layout_below="@id/lpgJoinDate"
+            android:layout_toEndOf="@id/lpgJoinTimeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@id/lpgJoinDate"
+            style="@style/normalText16Primary"
+            />
+
+        <TextView
+            android:layout_below="@id/lpgJoinTimeHeader"
+            android:id="@+id/lpgCapacityHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Capacity: "
+            style="@style/normalText16"
+            />
+
+        <TextView
+            android:id="@+id/lpgCapacity"
+            android:layout_below="@id/lpgJoinTime"
+            android:layout_alignStart="@id/lpgJoinDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/normalText16Primary"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

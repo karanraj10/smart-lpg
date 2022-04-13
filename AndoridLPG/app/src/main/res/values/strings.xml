@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">LPG Controller</string>
+    <string name="delay_for_splash_screen">1000</string>
+    <string name="delay_for_button">1500</string>
+
+    <string name="loginHeader">Login</string>
+    <string name="login_password_header">Password: </string>
+    <string name="login_macAddress_header">MAC ADDRESS: </string>
+    <string name="empty_inputs_toast"> MAC Address &amp; Password should not be empty !</string>
+
+    <string name="lpg">LPG</string>
+    <string name="users">users</string>
+    <string name="password">password</string>
+
+    <string name="login_fetch_error">Something went wrong!</string>
+    <string name="invalid_login_error">Invalid login details!</string>
+
+    <string name="dashboard_header">Dashboard</string>
+    <string name="initWeight">initWeight</string>
+    <string name="currentWeight">currentWeight</string>
+
+    <string name="usage">usage</string>
+    <string name="leakage">leakage</string>
+    <string name="joinDate">joinDate</string>
+    <string name="joinTime">joinTime</string>
+    <string name="onOffStatus">onOffStatus</string>
+
+    <string name="AlreadyApplied">Already Applied! </string>
+    <string name="valveStatusAlertHeader">Valve Control</string>
+    <string name="valveStatusAlertMessage">Do you really want to change valve?</string>
+    <string name="AlertYesButton">YES</string>
+    <string name="AlertNoButton">NO</string>
+
+    <string name="LogoutSetting">LogOut</string>
+    <string name="updateDetailsSetting">Update Details</string>
+    <string name="changePasswordSetting">Change Password</string>
+    <string name="requestNewLpg">Request For New Lpg</string>
+    <string name="LogoutAlertMessage">Do you really want to logout? </string>
+</resources>

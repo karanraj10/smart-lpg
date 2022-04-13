@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DashboardFragment"
+    android:background="@color/colorBlack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dailyUsageHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Usages"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        style="@style/headerText"/>
+
+    <TextView
+        android:id="@+id/dailyUsageLpgHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Of Currently Running Lpg: "
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="10dp"
+        style="@style/normalText16"/>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/dailyUsagesSearch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:theme="@style/SearchViewStyle"
+        app:searchIcon="@drawable/search_icon"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search a date"
+        app:queryBackground="@android:color/transparent"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dailyUsageList"
+        />
+
+</LinearLayout>

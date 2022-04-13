@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/accept_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/account_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/add_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/background_color.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/bottom_navigation_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/button_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/button_border_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/circle_textview_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/copy.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/location_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/plus_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/plus_white_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/raid_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/reject_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/right_arrow_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/round_button__background.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/search_icon.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/drawable/user.xml" value="0.37864583333333335" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/account_setting_list_item.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_control_valve.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_edit_password.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_home.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_lpg_report.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_request_lpg.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_splash.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_update_details.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/activity_usage_details.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/daily_usage_list_item.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/daily_usage_sublist_item.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/fragment_account.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/fragment_daily_usage.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/fragment_lpg_history.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/fragment_usages_details.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/fragment_usages_history.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/loading_alert_dialog.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/lpg_history_list_item.xml" value="0.33" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/progress_button.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/layout/spinner_popup_color_layout.xml" value="0.3625" />
+        <entry key="..\:/AndoridLPG/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/rajka/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

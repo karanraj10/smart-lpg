@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:enabled="true"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard"
+        android:id="@+id/dashboardMenuItem"/>
+    <item
+        android:title="Daily Usages"
+        android:icon="@drawable/calendar"
+        android:id="@+id/dailyUsageMenuItem"/>
+    <item
+        android:title="Usages History"
+        android:icon="@drawable/history"
+        android:id="@+id/usageHistoryMenuItem"/>
+    <item
+        android:title="Account"
+        android:icon="@drawable/account_icon"
+        android:id="@+id/accountMenuItem"/>
+
+</menu>

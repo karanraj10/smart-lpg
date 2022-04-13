@@ -1,0 +1,149 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+    
+    <style name="Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@color/colorGrey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:tint">@color/colorWhite</item>
+        <item name="android:editTextColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+    </style>
+
+    <style name="borderButton">
+        <item name="android:background">@drawable/button_border_background</item>
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:backgroundTint">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/source_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/source_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="backgroundColor">@color/colorGrey</item>
+    </style>
+
+    <style name="AppNameSplash">
+        <item name="android:fontFamily">@font/galada</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    
+    <style name="bottomBlackCard">
+        <item name="android:layout_marginBottom">-40dp</item>
+        <item name="cardCornerRadius">50dp</item>
+        <item name="elevation">50dp</item>
+        <item name="android:backgroundTint">@color/colorBlack</item>
+    </style>
+
+    <style name="headerText">
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="boldText">
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="boldTextRed">
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#D32F2F</item>
+    </style>
+
+    <style name="extraBoldText">
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="boldTextBlack">
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:fontFamily">@font/source_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="normalText16">
+        <item name="android:fontFamily">@font/source_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="normalText16Primary">
+        <item name="android:fontFamily">@font/source_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="boldText20Primary">
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="boldText24Primary">
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="normalText12">
+        <item name="android:fontFamily">@font/source_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="normalTextBlack">
+        <item name="android:fontFamily">@font/source_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="boldTextWhite">
+        <item name="android:fontFamily">@font/source_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="normalTextWhite">
+        <item name="android:fontFamily">@font/source_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+</resources>

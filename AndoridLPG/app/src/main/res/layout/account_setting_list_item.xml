@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardAccountSettingListItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardCornerRadius="20dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/colorGrey">
+
+    <!--  Account Setting List Item-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/accountSettingTextView"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_gravity="center_vertical"
+            android:text=""
+            style="@style/boldTextWhite" />
+        
+        <ImageView
+            android:id="@+id/accountSettingImageView"
+            android:layout_margin="2dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/right_arrow_icon"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

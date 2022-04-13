@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewBottomLogin"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_alignParentBottom="true"
+        style="@style/bottomBlackCard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loginHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginHeader"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                style="@style/headerText"/>
+
+            <TextView
+                android:id="@+id/macHeaderLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_macAddress_header"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="30dp"
+                style="@style/boldText"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/macAddressLogin"
+                android:inputType="textEmailAddress"
+                style="@style/EditText"
+                android:layout_marginTop="10dp"
+                android:maxLength="17"
+                />
+
+            <TextView
+                android:id="@+id/passwordHeaderLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_password_header"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                style="@style/boldText"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/passwordLogin"
+                style="@style/EditText"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/loginButton"
+                style="@style/Button"
+                android:text="LOGIN"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

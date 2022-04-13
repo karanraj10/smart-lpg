@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DashboardFragment"
+    android:background="@color/colorBlack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/usagesHistoryHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usages History"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        style="@style/headerText"/>
+
+    <TextView
+        android:layout_below="@id/usagesHistoryHeader"
+        android:id="@+id/usagesHistoryLpgHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Of Lpg: "
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="10dp"
+        style="@style/normalText16"/>
+
+    <Button
+        android:id="@+id/generateReportButton"
+        style="@style/borderButton"
+        android:layout_below="@id/usagesHistoryLpgHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Generate Report" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/generateReportButton"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/usagesHistoryListView"
+        />
+
+
+</RelativeLayout>
